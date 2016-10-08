@@ -24,3 +24,7 @@ So this basically means regardless of what is happening to the Flexbox, the item
 flex: 1 0 auto;
 ```
 So the property is set to grow whenever possible so that it grows in width if the menu's really wide. But if the space available for the menu item is less than 12 ems, then the menu item's gonna wrap down instead of just shrink.
+###3. Responsive Card Layouts
+####5 Solving the common "anchor doesn't fill the card" problem
+02:30
+Flexbox, within each of the flex items, is making sure that the anchor tag is flooding the entire available space.

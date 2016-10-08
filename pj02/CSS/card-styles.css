@@ -47,6 +47,7 @@ body {
 	margin-top: -1em;
 }
 .card{
+	display: flex;
 	flex: 0 1 calc(50% - .5em);
 	margin-bottom: 1em;
 }
