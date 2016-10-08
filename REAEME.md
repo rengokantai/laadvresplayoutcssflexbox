@@ -1,6 +1,6 @@
 #laadvresplayoutcssflexbox
 ##2. Flexbox-Powered Menus
-###Using Flexbox to control single-level menu layout
+###3 Using Flexbox to control single-level menu layout
 6:13
 ```
 .single-nav li{
@@ -9,3 +9,11 @@
 }
 ```
  What this means is if there's available space, the box for the individual item will grow to fill the space. However, if the space is smaller than the default space for the item, then this box will not shrink but instead wrap down.
+
+
+###4 Using Flexbox to control advanced menus
+03:14
+```
+flex:0 0 1.5em;
+```
+ So this basically means regardless of what is happening to the Flexbox, the item that's contained within the icon class will always be 1.5 ems wide
