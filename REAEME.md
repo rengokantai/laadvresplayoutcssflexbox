@@ -16,4 +16,11 @@
 ```
 flex:0 0 1.5em;
 ```
- So this basically means regardless of what is happening to the Flexbox, the item that's contained within the icon class will always be 1.5 ems wide
+So this basically means regardless of what is happening to the Flexbox, the item that's contained within the icon class will always be 1.5 ems wide
+
+
+04:45
+```
+flex: 1 0 auto;
+```
+So the property is set to grow whenever possible so that it grows in width if the menu's really wide. But if the space available for the menu item is less than 12 ems, then the menu item's gonna wrap down instead of just shrink.
