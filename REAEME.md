@@ -28,3 +28,12 @@ So the property is set to grow whenever possible so that it grows in width if th
 ####5 Solving the common "anchor doesn't fill the card" problem
 02:30
 Flexbox, within each of the flex items, is making sure that the anchor tag is flooding the entire available space.
+
+###4. Holy Grail
+####3 Styling the holy grail layout with Flexbox
+05:02
+```
+flex:1 1 auto; //main
+flex: 0 0 12em; //sidebar
+```
+The main area is what's holding the main contents so post content and here I'll set flex to grow by a factor of one, shrink by a factor of one, and have the basis value set to auto. This means that the main area will now fill out all the available space so all the space, except for the space taken up by the sidebar.
